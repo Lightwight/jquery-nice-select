@@ -121,7 +121,7 @@
       $option.addClass('selected');
       
       var text = $option.data('display') || $option.text();
-      $dropdown.find('.current').text(text);
+      $dropdown.find('.current').html(text);
       
       $dropdown.prev('select').val($option.data('value')).trigger('change');
     });
