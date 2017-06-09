@@ -1,6 +1,11 @@
-/*  jQuery Nice Select - v1.1.0
+/*  jQuery Nice Select - v1.0
     https://github.com/hernansartorio/jquery-nice-select
-    Made by Hernán Sartorio  */
+    Made by Hernán Sartorio  
+    
+    Modified by Christian Peters (2017-06-09) c.peters.eshop@gmail.com
+    ==================================================================
+    After modification the nice-select will display HTML instead of TEXT in .current.
+ **/
  
 (function($) {
 
